@@ -6,7 +6,7 @@
     content="width=device-width, scalable=no, initial-scale=1.0, maximum-scale=1.0, minum-scale=1.0">
     <meta http-equiv='X-UA-Compatible'content="ie=edge">
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Kaue_Dev</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -35,6 +35,17 @@
     </div>
   </div>
 </nav>
-
+<div>
+  <h3>Curriculo: <br><h3>
+  <p class = "b-transparent">
+    Empresa:
+    <br>
+    Ano:
+    <br>
+    Cargo:
+    <br>
+    Experiencia:
+  </p>
+</div>
 </body>
 </html>
