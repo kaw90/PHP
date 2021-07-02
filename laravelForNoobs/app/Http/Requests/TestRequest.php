@@ -13,7 +13,7 @@ class TestRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,8 +24,8 @@ class TestRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|exists:users',
-            'age' => 'required|numeric|unique:users,age'
+            'name' => 'required',
+            'age' => 'required|numeric'
         ];
     }
 }

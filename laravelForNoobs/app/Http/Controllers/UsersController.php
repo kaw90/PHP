@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
+use App\Http\Requests\TestRequest;
 use phpDocumentor\Reflection\Types\This;
 
 class UsersController extends Controller
@@ -18,10 +19,7 @@ class UsersController extends Controller
         return view('users', compact('username'));
     }
 
-    public function test(Request $request)
+    public function test(TestRequest $request)
     {
-        $validated = $request->validate([
-
-        ]);
     }
 }
